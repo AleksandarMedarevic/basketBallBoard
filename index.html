@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Score Board</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="rezultat">
+                <h3 class="board-title-home">HOME</h3>
+                <div id="rezultat-home" class="scoringBoard boardFont">0</div>
+                <div class="buttons">
+                    <button onclick="onePointsHome()" class="small-button tekst">+1</button>
+                    <button onclick="twoPointsHome()" class="small-button tekst">+2</button>
+                    <button onclick="threePointsHome()" class="small-button tekst">+3</button>
+                </div>
+            </div>    
+            <div class="rezultat">
+                <h3 class="board-title-home">GUEST</h3>
+                <div id="rezultat-guest" class="scoringBoard boardFont">0</div>
+                <div class="buttons">
+                    <button onclick="onePointsGuest()" class="small-button tekst">+1</button>
+                    <button onclick="twoPointsGuest()" class="small-button tekst">+2</button>
+                    <button onclick="threePointsGuest()" class="small-button tekst">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="startEnd">
+            <div>
+                <button onclick="startNewGame()" class="tekst buttons">Start new game</button>
+            </div>
+            <div>
+                <button onclick="gameOver()" class="tekst buttons">Game over</button>
+            </div>
+        </div> 
+        
+        <div>
+            <p id="whoWon"></p>
+        </div>       
+        <script src="index.js"></script>
+    </body>
+</html>

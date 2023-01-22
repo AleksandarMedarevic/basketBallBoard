@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#startEnd {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.rezultat {
+    color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    padding: 5px 10px;
+    
+}
+
+.board-title-home{
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.scoringBoard{
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.boardFont{
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Cursed Timer ULiL;
+}
+
+.buttons {
+    height: 45px;
+    width: 200px;
+    left: 82px;
+    top: 271px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    text-align: center; //why is text-align 
+}
+
+.small-button{
+    height: 45px;
+    width: 45px;
+    left: 391px;
+    top: 271px;
+    border-radius: 5px;
+    margin: 1px 5px;
+}
+
+.tekst {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+
+#whoWon {
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+button{
+    cursor: pointer;
+}
